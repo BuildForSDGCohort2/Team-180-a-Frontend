@@ -1,7 +1,7 @@
 const env = process.env.NODE_ENV || 'development'
 
 const development = {
-  serverHost: 'https://localhost:3000'
+  serverHost: 'http://localhost:3000'
 }
 
 const production = {
