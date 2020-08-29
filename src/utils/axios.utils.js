@@ -7,7 +7,7 @@ import config from '../config'
 const axiosInstance = axios.create({
   baseURL: config.serverHost,
   headers: {
-    Authorization: `Bearer ${getJwtToken}`
+    Authorization: `Bearer ${getJwtToken()}`
   }
 })
 
