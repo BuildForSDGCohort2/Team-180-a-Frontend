@@ -35,6 +35,7 @@ echo 'SKIP_PREFLIGHT_CHECK=true' >> .env
 ```
 
 ## Run tests
+TODO
 
 ```sh
 npm run test
@@ -58,13 +59,3 @@ Code formatting with prettier
 ```sh
 npm run format
 ```
-
-## Run tests
-
-```sh
-npm run test
-```
-
-## Author
-
-👤 **Team-180-a-Frontend**

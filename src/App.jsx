@@ -1,9 +1,9 @@
-import React from 'react';
-import { Switch, Route } from 'react-router-dom';
-import './App.css';
+import React from 'react'
+import { Switch, Route } from 'react-router-dom'
+import './App.css'
 
-import HomePage from './pages/homepage/homepage.component';
-import AboutPage from './pages/about/about.component';
+import HomePage from './pages/homepage/homepage.component'
+import AboutPage from './pages/about/about.component'
 
 const App = () => {
   return (
@@ -11,7 +11,7 @@ const App = () => {
       <Route exact path='/' component={HomePage} />
       <Route exact path='/about' component={AboutPage} />
     </Switch>
-  );
-};
+  )
+}
 
-export default App;
+export default App
