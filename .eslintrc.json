@@ -24,6 +24,8 @@
     "no-console": "off",
     "func-names": "off",
     "object-shorthand": "warn",
-    "class-methods-use-this": "off"
+    "class-methods-use-this": "off",
+    "react/jsx-filename-extension": "warn",
+    "import/prefer-default-export": "off"
   }
 }

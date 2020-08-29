@@ -22,8 +22,16 @@ npm install
 
 ## Usage
 
+Run the development server:
+
 ```sh
 npm start
+```
+
+Incase you run into issues launching the development server, try setting this environmental variable:
+
+```sh
+echo 'SKIP_PREFLIGHT_CHECK=true' >> .env
 ```
 
 ## Run tests
