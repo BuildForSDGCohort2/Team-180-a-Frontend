@@ -12,8 +12,7 @@
   </a>
 </p>
 
-
-> Client side app for Team-180-a 
+> Client side app for Team-180-a
 
 ## Install
 
@@ -25,6 +24,31 @@ npm install
 
 ```sh
 npm start
+```
+
+## Run tests
+
+```sh
+npm run test
+```
+
+## Lint
+
+```sh
+npm run lint
+```
+
+## Fix lint errors/ warnings
+
+```sh
+npm run lint:fix
+```
+
+## Format
+Code formatting with prettier
+
+```sh
+npm run format
 ```
 
 ## Run tests
