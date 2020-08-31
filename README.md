@@ -35,6 +35,7 @@ echo 'SKIP_PREFLIGHT_CHECK=true' >> .env
 ```
 
 ## Run tests
+
 TODO
 
 ```sh
@@ -54,6 +55,7 @@ npm run lint:fix
 ```
 
 ## Format
+
 Code formatting with prettier
 
 ```sh
